@@ -1,0 +1,39 @@
+/*
+Below is the format for a style definition
+
+selector {
+    property: value;
+    property2: value2;
+}
+*/
+
+a:active {
+    color: red;
+    background-color: blue;
+}
+
+nav.navbar {
+    color: pink;
+}
+
+#username, #password {
+    color: red;
+    background-color: orange;
+}
+
+nav {
+    background-color: orange;
+}
+
+nav:hover {
+    background-color: aquamarine;
+    color: salmon;
+}
+
+.login_form {
+    background-color: papayawhip;
+}
+
+.send_email_form {
+    background-color: blue;
+}
