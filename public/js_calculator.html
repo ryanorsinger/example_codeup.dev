@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <input id="left" type="text">
+    <input id="center" type="text">
+    <input id="right" type="text">
+    <br>
+    <button id="btn1">1</button>
+    <button type="">2</button>
+    <button type="">3</button>
+    <button type="">+</button>
+    <br>
+    <button type="">4</button>
+    <button type="">5</button>
+    <button type="">6</button>
+    <button type="">-</button>
+
+    <script>
+        var button1 = document.getElementById('btn1');
+        button1.addEventListener('click', function() {
+            document.getElementById('left').value += button1.innerHTML;
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Objects Intro</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <h1>Objects Exercises</h1>
+
+
+<script>
+// todo:
+// Create an array of objects that represent books.
+// Each book should have a title and an author.
+var books = [
+        {
+            "title": "Animal Farm",
+            "author": {
+                "firstName": "George",
+                "lastName": "Orwell"
+            }
+        },
+        {
+            "title": "JavaScript, the Good Parts",
+            "author": {
+                "firstName": "Douglas",
+                "lastName": "Crockford"
+            }
+        }
+    ];
+
+// The book author should be an object with a firstName and lastName.
+// Be creative and add at least 5 books to the array
+// var books = [todo];
+
+// log out the books array
+// console.log(books);
+
+// books.forEach(function(book, index, array) {
+//     console.log("Book number is " + (index + 1));
+//     console.log("Title: " + book.title);
+//     console.log("Author: " + book.author.firstName + " " + book.author.lastName);
+
+//     if(index < array.length -1) {
+//         console.log("---");
+//     }
+// });
+
+
+// Objective is to assemble an array of strings that hold the entire info
+// Step 1. start with an empty array
+var arrayOfStrings = [];
+
+// Step 2. Iterate across our array of book objects
+// Step 3. Concatenate pieces of string from the book object
+// Step 4. Push the concatenated string onto the arrayOfStrings array.
+var string = '';
+books.forEach(function(book, index, array) {
+    string = book.title + ' was written by ' + book.author.firstName + " " + book.author.lastName;
+    arrayOfStrings.push(string);
+});
+
+// Step 5. Iterate across your new array to console.log each string.
+arrayOfStrings.forEach(function(string, index, array) {
+    console.log(string);
+});

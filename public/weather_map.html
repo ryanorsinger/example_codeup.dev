@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <style type="text/css">
+        #map-canvas {
+            width: 770px;
+            height: 481px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="map-canvas"></div>
+
+    <main class="container">
+    </main>
+
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFjj_rfgDOuog6ftMS9Yjl3mvgK-whhNQ"></script>
+
+<script>
+"use strict";
+
+function getWindDirection(degree) {
+    var direction = '';
+
+    if(degree > 348 || degree < 11.25) {
+        direction = "N";
+    } else if (degree > 11.25 && degree < 33.75) {
+        direction = "NNE";
+    } else if (degree > 33.75 && degree < 56.25) {
+        direction = "NE";
+    } else if (degree > 56.25 && degree < 78.75) {
+        direction = "ENE";
+    } else if (degree > 78.75 && degree < 101.25) {
+        direction = "E";
+    } else if (degree > 101.25 && degree < 123.75) {
+        direction = "ESE";
+    } else if (degree > 123.75 && degree < 146.25) {
+        direction = "SE";
+    } else if (degree > 146.25 && degree < 168.75) {
+        direction = "SSE";
+    } else if (degree > 168.75 && degree < 191.25) {
+        direction = "S";
+    } else if (degree > 191.25 && degree < 213.75) {
+        direction = "SSW";
+    } else if (degree > 213.75 && degree < 236.25) {
+        direction = "SW";
+    } else if (degree > 236.25 && degree < 258.75) {
+        direction = "WSW";
+    } else if (degree > 258.75 && degree < 281.25) {
+        direction = "W";
+    } else if (degree > 281.25 && degree < 303.75) {
+        direction = "WNW";
+    } else if (degree > 303.75 && degree < 326.25) {
+        direction = "NW";
+    } else if (degree > 326.25 && degree < 348.75) {
+        direction = "NNW";
+    }
+
+    return direction;
+}
+
+function handleForecastData(data) {
+    var contentString = '';
+    contentString += "<h3>" + data.city.name + "</h3>";
+    data.list.forEach(function(forecast, index) {
+        var image = "http://openweathermap.org/img/w/" + forecast.weather[0].icon + ".png";
+
+        contentString += "<div class='col-md-4'>";
+        contentString += "<p>Temp: " + forecast.main.temp_min + "</p>";
+        contentString += "<img src='" + image + "'>";
+        contentString += "<p>Description " + forecast.weather[0].description + "</p>";
+        contentString += "<p>Humidity: " + forecast.main.humidity + "</p>";
+        contentString += "<p>Pressure: " + forecast.main.pressure + "</p>";
+        contentString += "<p>Winds: " + forecast.wind.speed + " from the " + getWindDirection(forecast.wind.deg) + "</p>";
+        contentString += "</div>";
+
+     });
+
+    contentString += "</section>";
+
+    $('main').append(contentString);
+}
+
+function getForecast() {
+    $.get("http://api.openweathermap.org/data/2.5/forecast", {
+        APPID: "a8df453d0094a6356c71e33efe98f000",
+        q:     "San Antonio, TX",
+        cnt: 3,
+        units: "imperial"
+
+    }).done(function(data) {
+
+        handleForecastData(data);
+
+    }).fail(function(data) {
+        console.log(data);
+    });
+}
+
+
+ // Set our map options
+var mapOptions = {
+    // Set the zoom level
+    zoom: 18,
+
+    // This sets the center of the map at our location
+    center: {
+        lat:  29.4284595,
+        lng: -98.492433
+    }
+};
+
+// Render the map
+var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+
+getForecast();
+
+
+</script>
+</body>
+</html>

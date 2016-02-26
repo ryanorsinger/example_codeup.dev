@@ -1,0 +1,365 @@
+{
+    "popular_name": "In Heaven, Everything is Fine",
+    "song_title": "Lady in the Radiator Song",
+    "soundtrack": "Eraserhead",
+    "writer": "Peter Ivers and David Lynch",
+    "chords":  "Bm Em G, 3 D G F",
+    "lyrics": "In Heaven Everything is fine In Heaven Everything is fine In Heaven Everything is fine You got your good thing And I've got mine In Heaven Everything is fine In Heaven Everything is fine In Heaven Everything is fine You got your good thing And you've got mine In Heaven Everything is fine In Heaven In Heaven Everything is fine You've got your good thing And you've got mine In Heaven Everything is fine",
+    "covers": [
+        {
+            "artist": "Miss Von Trapp",
+            "url": "https://www.youtube.com/watch?v=Q_brSItGf0Q",
+            "time": "1:21"
+        },
+        {
+            "artist": "Tuxedomoon",
+            "url": "https://www.youtube.com/watch?v=e5SFuPmy6zg",
+            "time": "3:35"
+        },
+        {
+            "artist": "cuerdadeplata",
+            "url": "https://www.youtube.com/watch?v=rDOqBgcuczs",
+            "time": "3:45"
+        },
+        {
+            "artist": "Jay Reatard",
+            "url": "https://www.youtube.com/watch?v=pKFpwjy1D1w",
+            "time": "2:30"
+        },
+        {
+            "artist": "DEVO",
+            "url": "https://www.youtube.com/watch?v=4EzquBCWrbY",
+            "time": "9:50"
+        },
+        {
+            "artist": "ROBOTS WITH SOULS",
+            "url": "https://www.youtube.com/watch?v=PcJxr8YBKi8",
+            "time": "4:48"
+        },
+        {
+            "artist": "Mr. Fisk",
+            "url" : "https://www.youtube.com/watch?v=GDmmo6zehDw",
+            "time": "2:31"
+        },
+        {
+            "artist": "Alex VK",
+            "url": "https://www.youtube.com/watch?v=b4Km_B6lK4o",
+            "time": "1:25"
+        },
+        {
+            "artist": "Matthew Redacted",
+            "url": "https://www.youtube.com/watch?v=BOAcDjAxqv4",
+            "time": "1:56"
+        },
+        {
+            "artist": "Alex Vincent and Stevie Guiol",
+            "url": "https://www.youtube.com/watch?v=y3vkL38Qrz8",
+            "time": "1:16"
+        },
+        {
+            "artist": "Laurel Near with philaMOCA",
+            "url": "",
+            "time": "4:34"
+        },
+        {
+            "artist": "Luke",
+            "url": "https://www.youtube.com/watch?v=IFAx8Cbpkr0",
+            "time": "2:12"
+        },
+        {
+            "artist": "JYJ",
+            "url": "https://www.youtube.com/watch?v=2Qw1P3ue7sQ",
+            "time": "2:12"
+        },
+        {
+            "artist": "Ryan Levitation",
+            "url": "https://www.youtube.com/watch?v=v31kbF9ZnKQ",
+            "time": "1:40"
+        },
+        {
+            "artist": "calorifuge",
+            "url": "https://www.youtube.com/watch?v=QP2EvVToWaY",
+            "time": "1:19"
+        },
+        {
+            "artist": "Greg Stanina",
+            "url": "https://www.youtube.com/watch?v=KpPIGpSn6l4",
+            "time": "1:20"
+        },
+        {
+            "artist": "Forgotten Sunrise",
+            "url": "https://www.youtube.com/watch?v=cNW0K1fhH5A",
+            "time": ""
+        },
+        {
+            "artist": "Nekura Edible Kids",
+            "url": "https://www.youtube.com/watch?v=f9HxIene-Nc",
+            "time": "1:26"
+        },
+        {
+            "artist": "Time-stretched x 10",
+            "url": "https://www.youtube.com/watch?v=l_Gx1os8rp0",
+            "time": "15:45"
+        },
+        {
+            "artist": "The Danse Society",
+            "url": "https://www.youtube.com/watch?v=5uPyFyX5SrA",
+            "time": "7:39"
+        },
+        {
+            "artist": "Figure of Wax",
+            "url": "https://www.youtube.com/watch?v=HqjAVrWMUIs",
+            "time": "3:52"
+        },
+        {
+            "artist": "Bauhaus",
+            "url": "https://www.youtube.com/watch?v=yYnhUC0W5hQ",
+            "time": "3:06"
+        },
+        {
+            "artist": "Peter Ivers",
+            "url": "https://www.youtube.com/watch?v=iH_1XJHCCEc",
+            "time": "1:46"
+        },
+        {
+            "artist": "The Pixies",
+            "url": "https://www.youtube.com/watch?v=zb9daG8WZd0",
+            "time": "1:58"
+        },
+        {
+            "artist": "Pankow",
+            "url": "https://www.youtube.com/watch?v=RBM08Qk6rdk",
+            "time": "2:16"
+        },
+        {
+            "artist": "Nam-tor Kanok-vel Tok-ti Svi'Sha-ka-ri (Vulcan Language), vibrantoxymoron",
+            "url": "https://www.youtube.com/watch?v=A4MrfbRC7Mg",
+            "time": ""
+        },
+        {
+            "artist": "My Death Not For Me",
+            "url": "https://www.youtube.com/watch?v=YQKubjmORHc",
+            "time": "2:10"
+        },
+        {
+            "artist": "Michael Wollny Trio",
+            "url": "https://www.youtube.com/watch?v=QOf5ZEGoGkI",
+            "time": "3:28"
+        },
+        {
+            "artist": "Matthew David Wardell",
+            "url": "https://www.youtube.com/watch?v=z4WpthQ72Zo",
+            "time": "15:14"
+        },
+        {
+            "artist": "Joe Havard Band",
+            "url": "https://www.youtube.com/watch?v=ENfGiABzBNY",
+            "time": "3:46"
+        },
+        {
+            "artist": "Die Arzt Technische",
+            "url": "https://www.youtube.com/watch?v=Ri6vfIJ_zlw",
+            "time": "8:25"
+        },
+        {
+            "artist": "Diploid",
+            "url": "https://www.youtube.com/watch?v=8kpmoUD_jWU",
+            "time": "4:50"
+        },
+        {
+            "artist": "Qualia",
+            "url": "https://www.youtube.com/watch?v=5srAkjynthk",
+            "time": "3:57"
+        },
+        {
+            "artist": "Alpha1",
+            "url": "https://www.youtube.com/watch?v=nvTKYhH5p4o",
+            "time": "3:29"
+        },
+        {
+            "artist": "mermaidsindrome",
+            "url": "https://www.youtube.com/watch?v=Ovxd7uWWzUw",
+            "time": "3:02"
+        },
+        {
+            "artist": "Lozalina",
+            "url": "https://www.youtube.com/watch?v=bi90Nroo-Jo",
+            "time": "1:20"
+        },
+        {
+            "artist": "Yeah and She Has Red Lips, Too",
+            "url": "https://www.youtube.com/watch?v=79vrwMoCc9k",
+            "time": "2:07"
+        },
+        {
+            "artist": "Effusion",
+            "url": "https://www.youtube.com/watch?v=TTIhZ2Cxhms",
+            "time": "2:51"
+        },
+        {
+            "artist": "Fine Motor",
+            "url": "https://www.youtube.com/watch?v=voi69zSRk7E",
+            "time": "4:56"
+        },
+        {
+            "artist": "GROMO",
+            "url": "https://www.youtube.com/watch?v=tquQTT_lm08",
+            "time": "1:14"
+        },
+        {
+            "artist": "Lauren Fox and Ritt Henn",
+            "url": "https://www.youtube.com/watch?v=BVtegP4Ayfg",
+            "time": "3:04"
+        },
+        {
+            "artist": "Chris Etter",
+            "url": "https://www.youtube.com/watch?v=DqGdW8W9IaI",
+            "time": "2:43"
+        },
+        {
+            "artist": "Tara Vanflower",
+            "url": "https://www.youtube.com/watch?v=htkkwn4qNPg",
+            "time": "0:55"
+        },
+        {
+            "artist": "Richard Cobelli",
+            "url": "https://www.youtube.com/watch?v=oSpwBprGD4o",
+            "time": "4:45"
+        },
+        {
+            "artist": "Ferocious Duck",
+            "url": "https://www.youtube.com/watch?v=E7XnmT5yuYw",
+            "time": "2:56"
+        },
+        {
+            "artist": "WIL3b",
+            "url": "https://www.youtube.com/watch?v=vv55wtw82H0",
+            "time": "5:15"
+        },
+        {
+            "artist": "Joman",
+            "url": "https://www.youtube.com/watch?v=iV-jZeVgbeo",
+            "time": "6:49"
+        },
+        {
+            "artist": "Michael Forrest",
+            "url": "https://www.youtube.com/watch?v=-tJiWzZqvL0",
+            "time": "3:19"
+        },
+        {
+            "artist": "tamara breitbarth",
+            "url": "https://www.youtube.com/watch?v=asD36fA6Q4k",
+            "time": "2:21"
+        },
+        {
+            "artist": "Winterly Heīghts",
+            "url": "https://www.youtube.com/watch?v=FX7I5DO7E00",
+            "time": "2:53"
+        },
+        {
+            "artist": "Brainchild",
+            "url": "https://www.youtube.com/watch?v=Oussy3a5J6E",
+            "time": "3:02"
+        },
+        {
+            "artist": "Zola Jesus",
+            "url": "https://www.youtube.com/watch?v=KeKdWOcET70",
+            "time": "2:48"
+        },
+        {
+            "artist": "Malien",
+            "url": "https://www.youtube.com/watch?v=mkpNEQG5KLQ",
+            "time": "3:00"
+        },
+        {
+            "artist": "Foggy",
+            "url": "https://www.youtube.com/watch?v=nHM-LjjqVh0",
+            "time": "2:56"
+        },
+        {
+            "artist": "Sylvia Tape",
+            "url": "https://www.youtube.com/watch?v=bzymVle5Gq8",
+            "time": "3:02"
+        },
+        {
+            "artist": "Jared Scherer",
+            "url": "https://www.youtube.com/watch?v=NZk-ToFFJ5s",
+            "time": "1:50"
+        },
+        {
+            "artist": "seek six sick",
+            "url": "https://www.youtube.com/watch?v=N7yZhR_MYi8",
+            "time": "1:46"
+        },
+        {
+            "artist": "Parralox",
+            "url": "https://www.youtube.com/watch?v=12cAymJfyy4",
+            "time": "3:01"
+        },
+        {
+            "artist": "Alex Kelly",
+            "url": "https://www.youtube.com/watch?v=4x63xxHhj_A",
+            "time": "3:21"
+        },
+        {
+            "artist": "Kids and Matches",
+            "url": "https://www.youtube.com/watch?v=J34UWvK9X0I",
+            "time": "2:36"
+        },
+        {
+            "artist": "Af-Riqenz",
+            "url": "https://www.youtube.com/watch?v=R3gGI7KocKo",
+            "time": "2:38"
+        },
+        {
+            "artist": "Melodux",
+            "url": "https://www.youtube.com/watch?v=VJ_EMJdqHg8",
+            "time": "6:20"
+        },
+        {
+            "artist": "Aenaon",
+            "url": "https://www.youtube.com/watch?v=Jyf1-T4H17I",
+            "time": "5:01"
+        },
+        {
+            "artist": "JCRZ Dark Ambient Remix",
+            "url": "https://www.youtube.com/watch?v=-nZsLjt-COg",
+            "time": "7:23"
+        },
+        {
+            "artist": "STERT",
+            "url": "https://www.youtube.com/watch?v=qe7tOtA95AQ",
+            "time": "3:23"
+        },
+        {
+            "artist": "Lodestar Supernumerary",
+            "url": "https://www.youtube.com/watch?v=TrZEzCFTBIA",
+            "time": "3:34"
+        },
+        {
+            "artist": "The Meteors",
+            "url": "https://www.youtube.com/watch?v=ZCoqG3_IxH4",
+            "time": "37:29"
+        },
+        {
+            "artist": "Le Tromps",
+            "url": "https://www.youtube.com/watch?v=50N4l9UvGHk",
+            "time": "1:28"
+        },
+        {
+            "artist": "Kid Loco & Dr. L",
+            "url": "https://www.youtube.com/watch?v=NNfi93fQmAU",
+            "time": "1:58"
+        },
+        {
+            "artist": "Miranda Sex Garden",
+            "url": "https://www.youtube.com/watch?v=Ia9eGBJ8y9I",
+            "time": "4:06"
+        },
+        {
+            "artist": "German Alonso",
+            "url": "https://www.youtube.com/watch?v=k6zcKjuPbmg",
+            "time": "9:20"
+        },
+    ]
+}

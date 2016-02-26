@@ -6,3 +6,4 @@
 - CSS3 for styling and presentation
 - JavaScript and jQuery
 - Object Oriented PHP
+- MySQL

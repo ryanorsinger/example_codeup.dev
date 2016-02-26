@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+
+<script>
+// # Functions
+
+// What
+//     - reusable block of code
+//     - reusable block of code with a name
+//     - take in data, do stuff to it, return data
+
+// Why
+//     - saves time
+//     - convenient b/c we call the function to run later
+//     - more readable code
+//     - accessibility
+//     - modularity
+
+// Where
+//     - function definitions at the top of our code
+//     - function calls anywhere we need the return value
+
+// # Anatomy of a function definition
+
+function sayGoodMorning(first, last) {
+
+    return "Good morning! It's " + first + " " + last + "!";
+}
+
+// # Calling or running a function
+var message = sayGoodMorning("Boberson", "Bob");
+console.log(message);
+
+message = sayGoodMorning("Doe", "Jane");
+console.log(message);
+
+
+// # Return values
+
+function isOdd(number) {
+    var result = number % 2 !== 0;
+    console.log(result);
+    return result;
+}
+
+if(isOdd(11)) {
+    console.log("11 is odd")
+} else {
+    console.log("11 is not odd");
+}
+
+
+function square(n) {
+    if(isNaN(n)) {
+        console.log(n + " is not a number");
+        return false;
+    } else {
+        return n * n;
+    }
+}
+
+function sumOfSquares(a,b) {
+    var aSquared = square(a);
+    var bSquared = square(b);
+    return aSquared + bSquared;
+}
+
+function differenceOfSquares(a,b) {
+    return square(a) - square(b);
+}
+
+function sayHello(name) {
+    return "Hello " + name;
+}
+
+
+
+
+
+</script>
+</body>
+</html>

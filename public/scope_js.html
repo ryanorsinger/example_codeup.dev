@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Scope</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <h2>Scope in JS</h2>
+<script>
+
+(function(){
+    var dayOfTheWeek = 'Tuesday';
+    var smileGlobal = smileBack();
+    console.log(dayOfTheWeek);
+
+    dayOfTheWeek = makeWednesday();
+
+    console.log(dayOfTheWeek);
+
+    function smileBack() {
+        var someOtherLocalVariable = ':(';
+        var localVariable = ':)';
+        return localVariable;
+    }
+
+    function makeWednesday() {
+        var day = dayOfTheWeek
+        day = 'Wednesday';
+        return day;
+    }
+
+    function getName() {
+        console.log(name);
+        return name;
+    }
+
+    function isNumber(n) {
+        var localVariable = 'Bob';
+
+        if(isNaN(n)) {
+            console.log("Parameters must be numbers");
+            return false;
+        } else {
+            return true;
+        }
+    }
+
+    function sum(a, b) {
+        if(isNumber(a) && isNumber(b)) {
+            return parseFloat(a) + parseFloat(b);
+        }
+    }
+
+    function difference(x, y) {
+        if(isNumber(x) && isNumber(y)) {
+            return x - y;
+        }
+    }
+
+    function product(num1, num2) {
+        if(isNumber(num1) && isNumber(num2)) {
+            return num1 * num2;
+        }
+    }
+
+    function quotient(a, b) {
+        if(isNumber(a) && isNumber(b)) {
+            return a / b;
+        }
+    }
+
+    function remainder(a, b) {
+        if(isNumber(a) && isNumber(b)) {
+            return a % b;
+        }
+    }
+
+    function getVolumeOfBox(height, width, depth) {
+        if(isNumber(height) && isNumber(width) && isNumber(depth)) {
+            return height * width * depth;
+        }
+    }
+
+})();
+
+</script>
+</body>
+</html>

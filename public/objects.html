@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+
+    <script>
+        var car = {
+            "make": "Chevy",
+            "model": "Corvette",
+            "years": [1999, 1985, 1967],
+            "honk": function() {
+                return 'HONK HONK';
+            },
+            "getMakeAndModel": function() {
+                return "The car is a " + this.make + " " + this.model;
+            },
+            "makeAndModel": this.getMakeAndModel(),
+            "getFirstYear": function() {
+                var yearsInOrder = this.years.sort();
+                return yearsInOrder[0];
+            }
+
+        }
+
+
+    </script>
+</body>
+</html>
